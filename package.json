@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "purgecss": "^7.0.2"
+  }
+}

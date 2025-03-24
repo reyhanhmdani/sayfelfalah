@@ -1,0 +1,10 @@
+# Folder yang tidak perlu di-push
+.vscode/
+node_modules/
+result/
+
+# File yang tidak perlu di-push
+package-lock.json
+.DS_Store
+Thumbs.db
+*.log
