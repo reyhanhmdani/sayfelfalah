@@ -6,6 +6,10 @@
   --dark: #0F499B;
 }
 
+body {
+  background-color:#00ab670f ;
+}
+
 h1,
 h2,
 .h1,
