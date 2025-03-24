@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-  --primary: #3cb371;
-  --secondary : #fed000;
+  --primary: #00AB66;
+  --secondary : #FEBE10;
   --light: #f8f8f8;
   --dark: #0F499B;
 }
@@ -75,8 +75,8 @@ h6,
 }
 
 .btn-outline-body {
-  color: var(--primary);
-  border-color: #777777;
+  color: var(--light);
+  border-color: #ffffff;
 }
 
 .btn-outline-body:hover {
@@ -479,7 +479,7 @@ h6,
 
 /*** Footer ***/
 .bg-footer {
-  background-color: #0F499B;
+  background-color: var(--dark);
 }
 
 .footer .btn.btn-link {
@@ -487,7 +487,7 @@ h6,
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #777777;
+  color: var(--light);
   font-weight: normal;
   text-transform: capitalize;
   transition: 0.3s;
