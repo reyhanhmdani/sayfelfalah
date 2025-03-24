@@ -253,6 +253,10 @@ h6,
 }
 
 /*** Pendidikan ***/
+.title-Section {
+  color: var(--dark);
+}
+
 .fact-item .fact-icon {
   width: 120px;
   height: 120px;
