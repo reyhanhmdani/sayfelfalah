@@ -79,8 +79,8 @@ h6,
 }
 
 .btn-outline-body {
-  color: var(--light);
-  border-color: #ffffff;
+  color: var(--dark);
+  border-color: var(--light);
 }
 
 .btn-outline-body:hover {
@@ -495,7 +495,20 @@ h6,
 }
 
 .list-footer {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
   color: var(--dark);
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.list-footer:hover {
+  color: var(--primary);
+  letter-spacing: 1px;
+  box-shadow: none; 
 }
 
 .footer .btn.btn-link {
